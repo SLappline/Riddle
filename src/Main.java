@@ -65,17 +65,6 @@ public class Main {
             }
         }
     }
-    static int attempt (String youranswer){
-        int result1;
-        int attempts = 0;
-        String hint = "Подсказка";
-        result1 = youranswer.compareToIgnoreCase(hint);
-        if (result1 == 0){
-            System.out.println("Подсказка: Это точно не лук.");
-            attempts = 1;
-        }
-        return attempts;
-    }
 }
 
 //        1. У пользователя есть 3 попытки, чтобы отгадать загадку.
